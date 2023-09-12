@@ -7,13 +7,19 @@
     gap: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
-    border: $color-1 2px solid;
+    border: $color-1 3px solid;
+    border-radius: 15%;
+    background-color: $color-1;
 }
 
 .meal-card img{
-    width: 80%;
+    width: 90%;
+    border-radius: 15%;
 }
-
+h2{
+    color: white;
+}
 p{
+    color: white;
     font-size: 12px;
 }

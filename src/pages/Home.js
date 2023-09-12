@@ -5,7 +5,7 @@ import Plats from "../components/Plats";
 
 const Home = () => {
   return (
-    <div>
+    <div className="Home">
       <Header />
       <Search />
       <Plats />
