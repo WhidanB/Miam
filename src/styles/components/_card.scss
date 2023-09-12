@@ -5,19 +5,22 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-padding-top: 20px;
+
 padding-bottom: 20px;
-    border: $color-1 3px solid;
-    border-radius: 15%;
+
+
     background-color: $color-1;
+    text-decoration: none;
 }
 
+
 .meal-card img{
-    width: 90%;
-    border-radius: 15%;
+    width: 100%;
+
 }
 h2{
     color: white;
+    font-size: 32px;
 }
 p{
     color: white;

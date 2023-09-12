@@ -1,4 +1,10 @@
 .header{
     width: 100%;
     text-align: center;
+
+    a{
+        text-decoration: none;
+        font-size: 30px;
+        color: $color-1;
+    }
 }

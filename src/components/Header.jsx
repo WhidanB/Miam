@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div className='header'>
-        <h1>🥗 Miam Miam 🥩</h1>
+        <a href='/'>🥗 Miam Miam 🥩</a>
         </div>
     );
 };
