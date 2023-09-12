@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/fonts/Electrolize-Regular.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+
+$color-1: salmon;
+$color-2: black;
+$white: #ffffff;
+
+@mixin verticalcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $white;
+    font-family: $font-1;
+}
