@@ -3,12 +3,12 @@ import Header from "../components/Header";
 import Search from "../components/Search";
 import Plats from "../components/Plats";
 
-const Home = () => {
+const Home = (data) => {
   return (
     <div className="Home">
       <Header />
       <Search />
-      <Plats />
+      <Plats meals={data} />
     </div>
   );
 };
