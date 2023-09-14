@@ -18,11 +18,11 @@ useEffect(() => {
       
   }, []);
 
-  console.log(data)
+  
     return (
 
 
-        <div>
+        <div className='Recipee'>
             <Header/>
             <Search/>
             {data

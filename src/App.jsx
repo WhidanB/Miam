@@ -20,7 +20,7 @@ const App = () => {
   useEffect(() => {
     
     axios
-      .get("https://www.themealdb.com/api/json/v1/1/search.php?s=chicken", instance)
+      .get("https://www.themealdb.com/api/json/v1/1/search.php?f=c", instance)
       .then((res) => setData(res.data.meals))
       .catch(
         function (error) {
