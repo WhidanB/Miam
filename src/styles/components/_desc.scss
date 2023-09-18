@@ -1,0 +1,74 @@
+.Recipee-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: $color-1;
+    padding: 50px 0;
+    
+    .meal-wrapper{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+        .meal-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 50px;
+
+            img{
+                width: 50%;
+                border-radius: 15% 15% 0% 15%;
+                border: 2px solid white;
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 50%;
+            }
+
+            Embed{
+                height: 100px;
+            }
+
+        }
+        .ing{
+            h2{
+                margin-bottom: 50px;
+            }
+            .ing-container{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+                grid-column-gap: 20px;
+                grid-row-gap: 20px;
+                justify-content: center;
+                gap: 20px;
+                
+                .ingredients-container{
+                    color: $color-1;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border-radius: 15%;
+                    padding: 10px;
+                        
+                        .ingimg{
+                        width: 100px;
+                        }
+                }
+            
+            }
+        }
+        .ins{
+            h2{
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
