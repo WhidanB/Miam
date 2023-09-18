@@ -1,0 +1,12 @@
+.suggestions{
+    display: flex;
+    flex-direction: column;
+    
+gap: 50px;
+    ul{
+
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+}
