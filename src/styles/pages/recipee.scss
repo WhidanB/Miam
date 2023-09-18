@@ -24,7 +24,9 @@
                 justify-content: center;
                 flex-direction: row;
                 gap: 50px;
-
+iframe{
+    border: 2px solid white;
+}
                 img{
                     width: 50%;
                     border-radius: 15% 15% 0% 15%;
