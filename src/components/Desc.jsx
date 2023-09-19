@@ -52,7 +52,7 @@ const Desc = (meal) => {
                             
                                 <img alt={ingredient[1]} src={imgURL} className='ingimg'/>
                                 <div >
-                                    <h3>{ingredient[0]}</h3>
+                                    <h2>{ingredient[0]}</h2>
                                     <h2>{ingredient[1]}</h2>
                                 </div>
                             </div>
