@@ -10,6 +10,7 @@ const Alphabet = () => {
     const [letter, setLetter] = useState([]);
     const [data, setData] = useState([]);
 
+
     useEffect(()=>{
         letter.length?
         axios
@@ -21,8 +22,6 @@ const Alphabet = () => {
         .then((res)=> setData(res.data.meals));
 
     }, [letter])
-    console.log(letter)
-    console.log(data)
 
     return (
         <div className='Home'>

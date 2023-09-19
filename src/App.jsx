@@ -6,6 +6,7 @@ import Recipee from "./pages/Recipee";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Alphabet from "./pages/Alphabet";
+import Random from "./pages/Random";
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/categories" element={<Categories/>}></Route>
         <Route path="/category/:id" element={<Category />}></Route>
         <Route path="/alphabet" element={<Alphabet />}></Route>
+        <Route path="/random" element={<Random/>}></Route>
       </Routes>
     </BrowserRouter>
   );
