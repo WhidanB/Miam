@@ -34,7 +34,7 @@ const Desc = (meal) => {
                         {
                             
                         YTube ?
-                        <iframe width="480" className='max-w-full' height="270" src={YTube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>   :
+                        <iframe  className='max-w-full' src={YTube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>   :
                         <h1>No available video</h1>             
                         }
                         </div>

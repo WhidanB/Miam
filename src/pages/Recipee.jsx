@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Header from "../components/Header";
-import Search from "../components/Search";
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import Desc from '../components/Desc';

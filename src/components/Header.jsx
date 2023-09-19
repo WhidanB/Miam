@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Search from './Search';
+
 
 const Header = ({setSearchValue}) => {
     const [value, setValue] = useState('');
-  console.log(value);
     const handleInputChange = (e) => {
-      const newValue = e.target.value;
+        let newValue = undefined;
+        e.target.value == '' ?
+         newValue = undefined
+        :
+         newValue = e.target.value;
       setValue(newValue);
-      setSearchValue(value); // Appelez la fonction de mise à jour de l'état du composant parent
+      setSearchValue(newValue); // Appelez la fonction de mise à jour de l'état du composant parent
     };
 
 

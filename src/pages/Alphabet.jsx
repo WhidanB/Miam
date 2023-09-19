@@ -26,18 +26,21 @@ const Alphabet = () => {
     return (
         <div className='Home'>
             <Header />
-            <ul>
+            <ul className='Lettres'>
                 {
                     alpha.map((e)=>(
                         <span onClick={()=>setLetter(e[0])}>{e[0]}</span>
                         ))
                     }
             </ul>
-            {letter.length?<h2>Meals starting with letter {letter} </h2>:<h2>Meals starting with letter A </h2>}
-            {
-                
-                data ?<Plats meals={data}/>:<h2>No meal found</h2>
-            }
+            <div className='Result'>
+
+                {letter.length?<h2>Meals starting with letter {letter} </h2>:<h2>Meals starting with letter A </h2>}
+                {
+                    
+                    data ?<Plats meals={data}/>:<h2>No meal found</h2>
+                }
+            </div>
             
         </div>
     );

@@ -1,0 +1,22 @@
+.Lettres{
+    display: flex;
+    flex-flow: row wrap;
+    span{
+        font-size: 24px;
+        font-weight: bold;
+        color: $color-1;
+    }
+
+    h2{
+        color: $color-1;
+    }
+}
+.Result{
+    width: 100%;
+    text-align: center;
+    background-color: $color-1;
+
+    h2{
+        color: white;
+    }
+}
