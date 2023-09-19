@@ -8,16 +8,8 @@ const Plats = (meals) => {
   const [data, setData] = useState([]);
   useEffect(() => {
     
-    setData(meals.meals.meals);
-  //   axios
-  //     .get("https://www.themealdb.com/api/json/v1/1/search.php?s=chicken", instance)
-  //     .then((res) => setData(res.data.meals))
-  //     .catch(
-  //       function (error) {
-  //         console.log('Show error notification!')
-  //         return Promise.reject(error)
-  //       }
-  //     )
+    setData(meals.meals);
+
   
   });
 

@@ -23,7 +23,7 @@ useEffect(() => {
     fetchData();
     
       
-  }, [data]);
+  }, [id.id]);
 
   
     return (
@@ -31,7 +31,6 @@ useEffect(() => {
 
         <div className='Recipee'>
             <Header/>
-            <Search/>
             {data
             .map((meal, index)=>(
             <Desc key={index} meal={meal}/> ))
