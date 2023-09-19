@@ -12,8 +12,7 @@ const Categories = () => {
     const [dataCate, setDataCate] = useState([]);
     const [data, setData] = useState([]);
     const [searchValue, setSearchValue] = useState();
-    console.log(data);
-    console.log(searchValue)
+
     useEffect(() => {
       searchValue != undefined ? 
         axios

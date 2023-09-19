@@ -35,10 +35,10 @@ const Alphabet = () => {
             </ul>
             <div className='Result'>
 
-                {letter.length?<h2>Meals starting with letter {letter} </h2>:<h2>Meals starting with letter A </h2>}
+                {letter.length?<h2 className='NoMeal'>Meals starting with letter {letter} </h2>:<h2 className='NoMeal'>Meals starting with letter A </h2>}
                 {
                     
-                    data ?<Plats meals={data}/>:<h2>No meal found</h2>
+                    data ?<Plats meals={data}/>:<h2 className='NoMeal'>No meal found</h2>
                 }
             </div>
             
