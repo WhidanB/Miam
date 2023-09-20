@@ -22,7 +22,7 @@ const Header = ({setSearchValue}) => {
         placeholder="Search"
         className="Search"
         onChange={handleInputChange}/>
-        <ul>
+        <ul className='Nav'>
             <NavLink to='/categories'>Categories</NavLink>
             <NavLink to='/alphabet'>Browse by name</NavLink>
             <NavLink to='/random'>Random meal</NavLink>

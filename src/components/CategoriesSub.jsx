@@ -10,6 +10,7 @@ setDataCate(cate.cate)
 
     return (
         <div className='plat-container'>
+            <h2>Categories</h2>
             <ul>
             {dataCate.map((categorie, index)=>(
                 <CateCard key={index} categorie={categorie}/>

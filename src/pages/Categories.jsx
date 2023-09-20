@@ -38,7 +38,13 @@ const Categories = () => {
 
 
             {searchValue != undefined ?
-            <Plats meals={data} />
+              data?
+              <Plats meals={data} />
+              :
+              <div className='Result'>
+
+              <h2 className='NoMeal'>No meal found</h2>
+              </div>
             :
             <CategoriesSub cate={dataCate}/>
         }

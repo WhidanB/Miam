@@ -35,7 +35,7 @@ const Suggestion = (meal) => {
             <h2>Suggestions</h2>
 
             <div>
-                <h3>More {country} Food</h3>
+                <h3 className='More'>More {country} Food</h3>
                 <ul className='suggestions_container'>
 
                 {dataC
@@ -45,7 +45,7 @@ const Suggestion = (meal) => {
                 </ul>
             </div>
             <div>
-                <h3>More from the "{category}" category </h3>
+                <h3 className='More'>More from the "{category}" category </h3>
                 <ul className='suggestions_container'>
                 {dataA
                 .slice(randomIndexA, randomIndexA + 3)

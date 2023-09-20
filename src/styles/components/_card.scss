@@ -25,6 +25,18 @@
         font-size: 26px;
         text-align: center;
         }
+        @media screen and (max-width: 815px) {
+            max-width: 300px;
+
+        }
+
+        @media screen and (max-width: 620px) {
+            max-width: 200px;
+
+            h2{
+                font-size: 18px;
+            }
+        }
 }
 
 
