@@ -13,4 +13,10 @@ gap: 50px;
     .More{
         margin-bottom: 15px;
     }
+
+    .suggestions_container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
