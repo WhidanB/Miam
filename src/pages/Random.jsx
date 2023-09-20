@@ -9,7 +9,6 @@ import Plats from '../components/Plats';
 const Random = ({}) => {
     const [data, setData] = useState([]);
     const [randomData, setRandomData] = useState([]);
-    const id = useParams();
     const [searchValue, setSearchValue] = useState();
 
     const fetchData = (()=>{
