@@ -25,12 +25,11 @@ const Category = () => {
     return (
         <div className='Home'>
             <Header/>
+            <div className='plat-container'>
+            <h2>{categorie.id}</h2>
             <Plats meals={dataCat}/>
-            {/* <ul>
-                {dataCat.map((meal, index)=>(
-                    <Card key={index} meal={meal}/>
-                ))}
-            </ul> */}
+            </div>
+            
         </div>
     );
 };

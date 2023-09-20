@@ -23,9 +23,11 @@ const Header = ({setSearchValue}) => {
         className="Search"
         onChange={handleInputChange}/>
         <ul className='Nav'>
-            <NavLink to='/categories'>Categories</NavLink>
-            <NavLink to='/alphabet'>Browse by name</NavLink>
-            <NavLink to='/random'>Random meal</NavLink>
+            <NavLink className="navl" to='/categories'>Categories</NavLink>
+            <NavLink className="divider">|</NavLink>
+            <NavLink className="navl" to='/alphabet'>Browse by name</NavLink>
+            <NavLink className='divider'>|</NavLink>
+            <NavLink className="navl" to='/random'>Random meal</NavLink>
         </ul>
         </div>
     );

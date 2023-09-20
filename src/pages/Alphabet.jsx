@@ -59,7 +59,10 @@ const Alphabet = () => {
                 
                     <div className='Result'>
 
-                    {letter.length?<h2 className='NoMeal'>Meals starting with letter {letter} </h2>:<h2 className='NoMeal'>Meals starting with letter A </h2>}
+                    {letter.length?
+                    <h2 className='NoMeal'>Meals starting with letter {letter} </h2>
+                    :
+                    <h2 className='NoMeal'>Meals starting with letter A </h2>}
                     {
                         
                         data ?
